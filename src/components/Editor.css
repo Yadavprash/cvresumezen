@@ -1,0 +1,105 @@
+/* src/components/Editor.css */
+
+.editor-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row; /* Arrange children in a row (side by side) */
+  height: 80vh; /* Use 100% of the viewport height */
+}
+/*div{*/
+/*  border:1px solid black;*/
+/*}*/
+#logo{
+  width: auto;
+  margin-top: 10px;
+  height: 180px;
+}
+h3 {
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 1.5em;
+  color: cadetblue; /* Change color as per your design */
+  margin-bottom: 15px;
+  border-bottom: 2px solid cadetblue; /* Add a subtle underline */
+  padding-bottom: 5px;
+}
+
+.envelope{
+  width: 100%;
+  background-color: mintcream;
+  height: 100%;
+  /*padding-bottom: 50px;*/
+}
+.editor-section {
+  /*width: 50%;*/
+  /*height: 100%;*/
+  /*flex: 1; !* Take up equal space *!;*/
+  padding-left: 20px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.ace-editor {
+  height: 100vh; /* Adjust the height as needed */
+}
+.editor-button {
+  font-family: monospace;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.left{
+  position: absolute;
+  left: 20px;
+  top:20px;
+  margin-left: 10px;
+  background-color: cadetblue;
+  float : left;
+  border-radius: 2px;
+}
+.compiled-pdf {
+  width: 45%;
+  height: 800px;
+  padding-bottom: 20px;
+  /*margin-top: 20px;*/
+}
+select {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white; /* Text color */
+  padding: 8px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+/* Style for when the dropdown is open */
+select:focus {
+  outline: seashell;
+  border-color: greenyellow; /* Highlight color */
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6); /* Box shadow effect */
+}
+
+/* Style for dropdown options */
+select option {
+  font-family: monospace;
+  font-size: 0.8em;
+  color: white;
+  background-color: cadetblue;
+}
+
+/* Style for selected option */
+select option:checked {
+  background-color: darkgreen; /* Highlight color for selected option */
+}
+
+.compiled-pdf iframe {
+  width: 100%;
+  /*height: 500px;*/
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* Add these styles to your existing CSS */
+
+.logsign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+    height: 80vh;
+    padding: 20px;
+    background-color:  #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.login-form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 370px;
+    padding: 10px;
+    font-family: monospace;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.button {
+    width: 390px;
+    background-color: #4caf50; /* Green button */
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 15px;
+    color: #555;
+}
+
+a {
+    color: #3498db; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#2980b9; /* Darker blue on hover */
+}
+
+
+
